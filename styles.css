@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(to right top, #65dfc9, #6cdbeb); /* Gradient background */
+}
+
+#calculator {
+  border: 2px solid #000;
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow for 3D effect */
+  padding: 25px;
+  background-color: #fff;
+  width: 320px;
+  transition: transform 0.2s ease-in-out; /* Smooth transformation on click */
+}
+
+#calculator:hover {
+  transform: scale(2.05); /* Slightly scale up when hovered */
+}
+
+#display {
+  width: calc(100% - 40px); /* Adjust width considering padding */
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #e0e0e0;
+  box-shadow: inset 0 -5px 5px rgba(0,0,0,0.2); /* Inset shadow for depth */
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease; /* Animate all changes */
+}
+
+button:hover {
+  background-color: #dcdcdc; /* Change background on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+button:active {
+  background-color: #bfbfbf; /* Change background on active */
+  transform: translateY(4px); /* Push down button when clicked */
+}
