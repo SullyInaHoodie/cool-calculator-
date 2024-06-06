@@ -11,12 +11,12 @@ body {
 
 #calculator {
   border: 2px solid #000;
-  border-radius: 10px; /* More rounded corners */
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow for 3D effect */
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   padding: 25px;
-  background-color: #fff;
+  background-color: #44197f6e;
   width: 320px;
-  transition: transform 0.2s ease-in-out; /* Smooth transformation on click */
+  transition: transform 0.2s ease-in-out;
 }
 
 #calculator:hover {
@@ -24,15 +24,16 @@ body {
 }
 
 #display {
-  width: calc(100% - 40px); /* Adjust width considering padding */
+  width: calc(100% - 40px);
   padding: 15px;
   margin-bottom: 20px;
   font-size: 2.5em;
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: right;
-  background-color: #e0e0e0;
-  box-shadow: inset 0 -5px 5px rgba(0,0,0,0.2); /* Inset shadow for depth */
+  background-color: #e0e0e000;
+  box-shadow: inset 0 -5px 5px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 #buttons {
@@ -47,9 +48,10 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 6px;
-  background-color: #f8f8f8;
+  background-color: #000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease; /* Animate all changes */
+  transition: all 0.3s ease;
+  color: white;
 }
 
 button:hover {
