@@ -4,9 +4,9 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: #f5f5f5f8;
+  background-color: #2b318bf8;
   font-family: 'Arial', sans-serif;
-  background-image: linear-gradient(to right top, #65dfc9, #6cdbeb); /* Gradient background */
+  background: url(https://i1.wp.com/i.pinimg.com/originals/34/16/fc/3416fc4113b69a0bf1cc75a772c4b5c4.gif);/* Gradient background */
 }
 
 #calculator {
